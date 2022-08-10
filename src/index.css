@@ -1,0 +1,8 @@
+@import url(//db.onlinewebfonts.com/c/6cec834e2e8f2e4206567ed75e1281d4?family=Brandon+Grotesque+Bold); /*importing brandon grotesque font*/
+
+body {
+  margin: 0;
+  font-family: "Brandon Grotesque Bold";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

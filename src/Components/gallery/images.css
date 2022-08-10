@@ -1,0 +1,60 @@
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+	flex-basis: 90%;
+	flex-wrap: wrap;
+}
+.img-holder {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img-holder img {
+	object-position: center;
+	object-fit: cover;
+	top: 10%;
+	height: 350px;
+	width: 300px;
+	border: 6px solid #e1dbbd;
+}
+.img-holder img :hover {
+	cursor: pointer;
+	transform: scale(3);
+}
+
+.lg-img-hldr {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	width: 50%;
+}
+.lg-img-hldr img {
+	width: 100%;
+	height: 450px;
+}
+.bottom-bar {
+	text-align: center;
+	background-blend-mode: color-burn;
+	mix-blend-mode: normal;
+	background-color: #1d1c18;
+	opacity: 0.9;
+}
+.top-bar {
+	padding-right: 1%;
+	text-align: right;
+	background-blend-mode: color-burn;
+	mix-blend-mode: normal;
+	background-color: #1d1c18;
+	opacity: 0.9;
+}
+
+.name {
+	color: #e1dbbd;
+	font-size: 40px;
+}
+.descriptions {
+	color: #e2ac0d;
+	font-size: 20px;
+}

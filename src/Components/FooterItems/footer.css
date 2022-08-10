@@ -1,0 +1,138 @@
+#footer * {
+  letter-spacing: 1.1px;
+  color: #e1dbbd;
+}
+
+.container2 {
+  background-color: var(--secondary-bg);
+  text-align: center;
+  padding: 20px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+
+.container1 {
+  background: var(--gradient1);
+  padding: 20px;
+}
+.row-2 {
+  display: block;
+}
+
+.container1 .row {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.container1 .row-title {
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container1 .seperator {
+  width: 50px;
+  border: solid var(--admin-color1) 2px;
+  margin-top: 5px;
+}
+
+.footer-nav,
+.footer-subnav {
+  list-style: none;
+}
+
+.footer-subnav {
+  margin-left: 15px;
+}
+.footer-item {
+  margin: 5px;
+}
+
+.footer-link,
+.footer-sub-link {
+  text-decoration: none;
+  letter-spacing: 0.8px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.footer-link:hover,
+.footer-sub-link:hover {
+  text-decoration: underline 2px;
+}
+
+.container1 .content {
+  margin: 10px;
+  padding: 5px;
+}
+
+.container1 .label {
+  background-color: var(--secondary-bg);
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.label p {
+  padding: 5px;
+}
+
+.contact-icon {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  padding: 10px;
+}
+.social-bar {
+  margin: auto;
+  margin-top: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-icon {
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  background-color: var(--secondary-bg);
+  font-size: 18px;
+  padding: 10px;
+  width: 40px;
+}
+.social-icon:hover {
+  background-color: var(--admin-color1);
+}
+.footer-nav {
+  display: block;
+}
+.footer-subnav {
+  display: block;
+}
+.row .row-title {
+  text-align: center;
+  font-size: 40px;
+}
+.container2 {
+  margin: 30px;
+}
+
+@media screen and (min-width: 900px) {
+  .container1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .container1 .row-1 {
+    max-width: 40%;
+    width: 40%;
+  }
+  .container1 .row-2 {
+    max-width: 30%;
+    width: 25%;
+  }
+  .container1 .row-3 {
+    max-width: 30%;
+    width: 25%;
+  }
+}

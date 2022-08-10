@@ -1,0 +1,73 @@
+@import url(//db.onlinewebfonts.com/c/6cec834e2e8f2e4206567ed75e1281d4?family=Brandon+Grotesque+Bold); /*importing brandon grotesque font*/
+
+.App {
+  text-align: center;
+}
+
+input {
+  border: 0;
+}
+
+.submitButton {
+  border: 0;
+  margin-bottom: 17px;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-color: black;
+  align-items: center;
+  font-family: "Brandon Grotesque Bold";
+}
+
+.container {
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 2%;
+  position: relative;
+  font-family: "Brandon Grotesque Bold";
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.scroll-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+}
+.scroll-container .indicator {
+  height: 100%;
+  background: #e2ac0d;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 12px;
+  right: 5%;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: #e2ac0d;
+  color: #fff;
+  z-index: 1;
+}
+.scroll-to-top .icon {
+  margin-top: 10px;
+  animation: scrollTop 0.5s alternate ease infinite;
+}
+@keyframes scrollTop {
+  from {
+    transform: translateY(2px);
+  }
+  to {
+    transform: translateY(-1px);
+  }
+}
+/*for mobile version */
+@media screen and (max-width: 600px) {
+}

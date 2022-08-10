@@ -1,0 +1,131 @@
+.Robocup {
+  text-align: center;
+  font-size: 30px;
+}
+.Image-cover {
+  height: 645px;
+  width: 100%;
+  background: url("./Cover.png");
+  background-size: 100%;
+  position: relative;
+  border: none;
+}
+.Robocup .buttonScrollDown {
+  margin-top: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  border-color: #e2ac0d;
+  border-width: 0.08cm;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  animation: scrollDown 0.5s alternate ease infinite;
+}
+.Robocup .btn-robocup {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border-color: #e2ac0d;
+  box-shadow: 3px 3px 5px #e1dbbd !important;
+  border-radius: 20px;
+  border: 3px solid;
+
+  font-weight: bold;
+
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  height: 60px;
+}
+.concour {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.SpecialOps .affiche {
+  width: 310px;
+  height: 438.5px;
+  background: url("./Special Ops.png");
+  background-size: 310px;
+  margin-left: 50px;
+  margin-right: 70px;
+  border: 0.5px solid #e1dbbd;
+}
+.JuniorSoldier .affiche {
+  width: 310px;
+  height: 438.5px;
+  background: url("./Junior\ Soldier.png");
+  background-size: 310px;
+  margin-left: 50px;
+  margin-right: 70px;
+  border: 0.5px solid #e1dbbd;
+}
+.TheArsenal .affiche {
+  width: 310px;
+  border: 0.5px solid #e1dbbd;
+  height: 438.5px;
+  background: url("./TheArsenal.png");
+  background-size: 310px;
+  margin-left: 50px;
+  margin-right: 70px;
+}
+.Chernobot .affiche {
+  width: 310px;
+  height: 438.5px;
+  background: url("./ChernoBot.png");
+  background-size: 310px;
+  margin-left: 50px;
+  margin-right: 70px;
+  border: 0.5px solid #e1dbbd;
+}
+.buttons {
+  margin-top: 200px;
+}
+.buttons .JuniorSoldier,
+.buttons .TheArsenal,
+.buttons .Chernobot,
+.buttons .SpecialOps {
+  padding: 20px;
+}
+.Robocup .separator {
+  height: 0.2px;
+  opacity: 0.6;
+  background-color: #e1dbbd;
+  width: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  margin: 20px;
+  margin-bottom: 15px;
+}
+.Robocup .btn-robocup:hover {
+  background-color: #e2ac0d;
+  color: black;
+}
+.Robocup h1 {
+  color: #e2ac0d;
+  font-size: 40px;
+  margin-top: 20px;
+}
+.Robocup h3 {
+  color: #e1dbbd;
+}
+@media screen and (max-width: 950px) {
+  .concour {
+    display: block;
+    margin-left: 150px;
+  }
+  .buttons {
+    margin-right: 130px;
+    margin-top: 50px;
+  }
+  .separator {
+    margin-top: 20px;
+  }
+}

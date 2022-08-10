@@ -1,0 +1,14 @@
+#row1 {
+  padding: 3%;
+}
+#row2 {
+  text-align: center;
+}
+#AboutImages {
+  align-items: center;
+  display: block;
+  border-radius: 15px;
+  box-shadow: 0 0 1.5rem rgb(17 17 17 / 70%);
+  cursor: pointer;
+  width: 100%;
+}

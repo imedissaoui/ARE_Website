@@ -1,0 +1,20 @@
+@media screen and (max-width: 900px) {
+  .container {
+    display: block;
+    padding: 5px;
+    height: fit-content;
+  }
+  #contactus {
+    height: fit-content;
+  }
+  .map {
+    margin: 15px;
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  h2 {
+    font-size: 50;
+  }
+}

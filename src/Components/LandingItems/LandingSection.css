@@ -1,0 +1,75 @@
+#landingContainer {
+  width: 100%;
+  height: 550px;
+}
+.buttonScrollDown {
+  border-radius: 50%;
+  background-color: transparent;
+  border-color: #e2ac0d;
+  border-width: 0.08cm;
+  padding: 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  animation: scrollDown 0.5s alternate ease infinite;
+}
+
+@keyframes scrollDown {
+  from {
+    transform: translateY(-1px);
+  }
+  to {
+    transform: translateY(2px);
+  }
+}
+
+#iconDown {
+  animation: scrollDownIcon 0.3s alternate ease infinite;
+}
+
+@keyframes scrollDownIcon {
+  from {
+    transform: translateY(-2px);
+  }
+  to {
+    transform: translateY(3px);
+  }
+}
+
+#text h2 {
+  color: white;
+  display: inline-block;
+  content: "";
+  border-top: 0.08cm #e2ac0d solid;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom: 0.08cm #e2ac0d solid;
+  background-size: contain;
+  align-items: center;
+  height: 100px;
+  font-size: 1em;
+  position: relative;
+  margin-top: 7%;
+}
+#text h3 {
+  opacity: 0.7;
+  animation: translate 10s alternate ease;
+}
+
+@keyframes translate {
+  from {
+    transform: scale(3);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+@media screen and (max-width: 600px) {
+}
